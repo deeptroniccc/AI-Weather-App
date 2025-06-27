@@ -13,13 +13,9 @@ A responsive and interactive web application that displays real-time weather inf
 
 ---
 
-## 🖼️ Screenshots
 
-| Weather Info Card | Chatbot Window |
-|-------------------|----------------|
-| ![weather-card](screenshots/weather-card.png) | ![chatbot](screenshots/chatbot.png) |
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -39,3 +35,12 @@ weather-chat-app/
 ├── /screenshots
 │ └── (optional preview images)
 └── README.md
+
+
+## 📦 How to Run Locally
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/weather-chat-app.git
+   cd weather-chat-app
+
