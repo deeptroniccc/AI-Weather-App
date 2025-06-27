@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App with Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <h1 id="location">Loading...</h1>
+            <div class="weather-emoji" id="weather-emoji">⏳</div>
+            <div class="temperature" id="temperature">--°C</div>
+            <div class="description" id="description">--</div>
+            <div class="details">
+                <div>Humidity: <span id="humidity">--%</span></div>
+                <div>Wind Speed: <span id="wind-speed">-- m/s</span></div>
+                <div>Pressure: <span id="pressure">-- hPa</span></div>
+                <div>Feels Like: <span id="feels-like">--°C</span></div>
+            </div>
+            <div class="error" id="error-message"></div>
+            <div class="loading" id="loading-message">Loading weather data...</div>
+        </div>
+        <button class="chat-button" id="chat-button">💬 Chat</button>
+        <div class="chatbot-container" id="chatbot-container">
+            <div class="chatbot-header">
+                <h2>Weather Assistant</h2>
+                <button class="close-chatbot" id="close-chatbot">×</button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages"></div>
+            <div class="chatbot-input">
+                <input type="text" id="chat-input" placeholder="Ask about the weather...">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
